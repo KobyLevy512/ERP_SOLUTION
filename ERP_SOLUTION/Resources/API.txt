@@ -1,0 +1,110 @@
+Server first byte code, Serves as indices for which op(Operation) to do.
+0  = Login
+1  = Create Program
+2  = Get Program
+3  = Update Program
+4  = Delete Program
+5  = Create Table
+6  = Get Table
+7  = Update Table
+8  = Delete Table
+9  = Create row for a table
+10 = Get row from a table
+11 = Update row at a table
+12 = Update row at a table
+13 = Run Program
+
+Tokken Mode as byte code, Serves for storing authorizitaion for this user.
+0 = Production
+1 = Test
+2 = Development
+else = none
+
+Server Commands inforamtion.
+Login:
+{ 
+	op:byte
+	mode:byte
+	user:string
+	password:string
+	return:
+	{
+		success:bool
+		tokken:byte[TOKKEN_LENGTH]
+	}
+}
+Mode Required = none
+
+Create Program: 
+{ 
+	op:byte
+	tokken:byte[TOKKEN_LENGTH]
+	name:string
+	return:
+	{
+		success:bool
+	}
+}
+Mode Required = Development
+
+Get Program:
+{
+	op:byte
+	tokken:byte[TOKKEN_LENGTH]
+	name:string
+	return:
+	{
+		success:bool
+		content:string
+	}
+}
+Mode Required = Development
+
+Update Program:
+{
+	op:byte
+	tokken:byte[TOKKEN_LENGTH]
+	name:string
+	content:string
+	return:
+	{
+		success:bool
+	}
+}
+Mode Required = Development
+
+Delete Program:
+{
+	op:byte
+	tokken:byte[TOKKEN_LENGTH]
+	name:string
+	return:
+	{
+		success:bool
+	}
+}
+Mode Required = Development
+
+NOTES.
+RETURN:
+If the return value is false,
+you have to write a string message that indices why the request is not valid.
+The string messages are stored on class OpException,
+If you dont found the right message add static property to the OpException
+class and NOT pass a constant string to the binarywritter.
+
+Constants:
+TOKKEN_LENGTH = 20 can be changed in the Tokken class.
+
+Transactions:
+Server:
+Requests logs
+Users list
+Running tokkens
+
+Client:
+Program (se38),
+Table (se11),
+Transport (se1),
+Forms
+Background Tasks

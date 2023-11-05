@@ -1,0 +1,46 @@
+using System;
+using ERP;
+
+namespace MyTransaction
+{
+	public class Program : Transaction
+	{
+		//Constructor for your program
+		//Init your program here.
+		public Program()
+		{
+			
+		}
+
+		//This function invoke when other app request to run the program.
+		public static object[] Run(params object[] parameters)
+		{
+			return new object[0];
+		}
+
+		//This function invoke
+		//when the user hit the execute button.
+		public override void Execute()
+		{
+
+		}
+
+		//This function invoke when the user hit the load preset button.
+		public override void LoadPreset(Preset[] fields)
+		{
+
+		}
+
+		//This function invoke when the user hit the save preset button.
+		public override Preset[] SavePreset()
+		{
+			return new Preset[0];
+		}
+
+		//This function invoke when the user hit the send email button.
+		public override MailMessage SendEmail()
+		{
+			return new MailMessage();
+		}
+	}
+}
