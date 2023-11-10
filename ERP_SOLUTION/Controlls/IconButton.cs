@@ -61,8 +61,8 @@ namespace ERP_SOLUTION.Controlls
 
         private void IconButton_Paint(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawImage(icon, 7, 5, 28, 28);
-            e.Graphics.DrawString(txt, Font, brush, 36, 9);
+            e.Graphics.DrawImage(icon, 7, 4, 18, 18);
+            e.Graphics.DrawString(txt, Font, brush, 28, 4);
         }
     }
 }

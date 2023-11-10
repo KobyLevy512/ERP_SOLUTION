@@ -32,16 +32,16 @@
             // 
             // IconButton
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.BackgroundImage = global::ERP_SOLUTION.Properties.Resources.Icon_Button_Regular;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.DoubleBuffered = true;
-            this.Font = new System.Drawing.Font("72 Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Font = new System.Drawing.Font("72 Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "IconButton";
-            this.Size = new System.Drawing.Size(171, 38);
+            this.Size = new System.Drawing.Size(137, 31);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.IconButton_Paint);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.IconButton_MouseDown);
             this.MouseEnter += new System.EventHandler(this.IconButton_MouseEnter);
