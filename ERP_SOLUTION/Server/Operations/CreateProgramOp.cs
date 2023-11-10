@@ -5,9 +5,9 @@ namespace ERP_SOLUTION.Server.Operations
 {
     internal class CreateProgramOp : Op
     {
-        public override void Make(BinaryReader read, BinaryWriter write)
+        public override void Make(BinaryReader read, BinaryWriter write, string ip)
         {
-            base.Make(read, write);
+            base.Make(read, write, ip);
             if (tokken.Equals(null)) return;
             if(tokken.Mode != 2)
             {
@@ -24,19 +24,6 @@ namespace ERP_SOLUTION.Server.Operations
             }
             StreamWriter s = File.CreateText(fullPath);
             s.Write(Properties.Resources.EmptyTransaction);
-            //s.WriteLine("using System;");
-            //s.WriteLine();
-            //s.WriteLine("namespace " + name);
-            //s.WriteLine("{");
-            //s.WriteLine("\tpublic class Program");
-            //s.WriteLine("\t{");
-            //s.WriteLine();
-            //s.WriteLine("\t\tpublic static void Main(object[] params)");
-            //s.WriteLine("\t\t{");
-            //s.WriteLine();
-            //s.WriteLine("\t\t}");
-            //s.WriteLine("\t}");
-            //s.WriteLine("}");
             s.Close();
             File.Encrypt(fullPath);
             write.Write(true);

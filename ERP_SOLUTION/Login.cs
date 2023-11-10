@@ -84,6 +84,8 @@ namespace ERP_SOLUTION
             if(listener.Login((byte)ModeComboBox.SelectedIndex, UserInput.Text, PasswordInput.Text))
             {
                 //Open client
+                Transactions.Client.MainScreen screen = new Transactions.Client.MainScreen();
+                screen.ShowDialog();
             }
         }
 
@@ -105,7 +107,7 @@ namespace ERP_SOLUTION
                     //Open in server mode
                     ServerPath = folderBrowserDialog1.SelectedPath;
                     CreateNewServerFiles();
-                    Transactions.Server.MainScreen screen = new Transactions.Server.MainScreen(IpInput.Text, int.Parse(PortInput.Text));
+                    Transactions.Server.MainScreen screen = new Transactions.Server.MainScreen(UserInfo.Ip, int.Parse(PortInput.Text));
                     screen.ShowDialog();
                 }
             }
@@ -125,7 +127,7 @@ namespace ERP_SOLUTION
                         MessageBox.Show(ex.Message + "\nPath:" + ex.Source);
                     }
                     //Open in server mode
-                    Transactions.Server.MainScreen screen = new Transactions.Server.MainScreen(IpInput.Text, int.Parse(PortInput.Text));
+                    Transactions.Server.MainScreen screen = new Transactions.Server.MainScreen(UserInfo.Ip, int.Parse(PortInput.Text));
                     screen.ShowDialog();
                 }
             }

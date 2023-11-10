@@ -20,13 +20,13 @@ namespace ERP_SOLUTION.Server.Operations
         /// </summary>
         /// <param name="read"></param>
         /// <param name="write"></param>
-        public virtual void Make(BinaryReader read, BinaryWriter write)
+        public virtual void Make(BinaryReader read, BinaryWriter write, string ip)
         {
             tokken = null;
             byte[] tok = read.ReadBytes(20);
             for(int i = 0; i<tokkens.Count; i++)
             {
-                if (tokkens[i] == tok)
+                if (tokkens[i] == tok && tokkens[i].Ip == ip)
                 {
                     tokken = tokkens[i];
                     tokken.Update();

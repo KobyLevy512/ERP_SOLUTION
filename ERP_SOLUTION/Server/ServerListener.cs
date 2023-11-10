@@ -54,7 +54,7 @@ namespace ERP_SOLUTION.Server
                     BinaryWriter writte = new BinaryWriter(new MemoryStream());
                     try
                     {
-                        operations[reader.ReadByte()].Make(reader, writte);
+                        operations[reader.ReadByte()].Make(reader, writte, ((IPEndPoint)client.Client.RemoteEndPoint).Address.ToString());
                     }
                     catch
                     {

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Net.Sockets;
+using System.Net;
 
 namespace ERP_SOLUTION.Client
 {
@@ -45,6 +47,34 @@ namespace ERP_SOLUTION.Client
         public static DateTime ConnectTime
         {
             get => connectTime;
+        }
+
+        public static string Ip
+        {
+            get
+            {
+                string localIp = "";
+                try
+                {
+                    // Get the local machine's IP addresses
+                    IPHostEntry host = Dns.GetHostEntry(Dns.GetHostName());
+
+                    foreach (IPAddress ip in host.AddressList)
+                    {
+                        // Check for IPv4 addresses only
+                        if (ip.AddressFamily == AddressFamily.InterNetwork)
+                        {
+                            localIp = ip.ToString();
+                            break;
+                        }
+                    }
+                }
+                catch
+                {
+                    
+                }
+                return localIp;
+            }
         }
     }
 }

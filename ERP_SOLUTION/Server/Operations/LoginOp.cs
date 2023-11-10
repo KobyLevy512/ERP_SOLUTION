@@ -5,7 +5,7 @@ namespace ERP_SOLUTION.Server.Operations
 {
     internal class LoginOp : Op
     {
-        public override void Make(BinaryReader read, BinaryWriter write)
+        public override void Make(BinaryReader read, BinaryWriter write, string ip)
         {
             string user = read.ReadString();
             string password = read.ReadString();
@@ -13,6 +13,7 @@ namespace ERP_SOLUTION.Server.Operations
             if (Crypto.Instance.UserExist(user, password, mode))
             {
                 Tokken tokken = Tokken.Generate(mode);
+                tokken.Ip = ip;
                 tokken.OnTerminate += (Tokken sender) => tokkens.Remove(sender);
                 tokkens.Add(tokken);
                 write.Write(true);

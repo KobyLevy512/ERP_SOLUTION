@@ -55,9 +55,9 @@
             // 
             this.DateLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.DateLabel.AutoSize = true;
-            this.DateLabel.Location = new System.Drawing.Point(698, 7);
+            this.DateLabel.Location = new System.Drawing.Point(707, 7);
             this.DateLabel.Name = "DateLabel";
-            this.DateLabel.Size = new System.Drawing.Size(98, 17);
+            this.DateLabel.Size = new System.Drawing.Size(82, 17);
             this.DateLabel.TabIndex = 2;
             this.DateLabel.Text = "30/12/2023";
             // 
@@ -67,7 +67,7 @@
             this.UserLabel.AutoSize = true;
             this.UserLabel.Location = new System.Drawing.Point(3, 7);
             this.UserLabel.Name = "UserLabel";
-            this.UserLabel.Size = new System.Drawing.Size(44, 17);
+            this.UserLabel.Size = new System.Drawing.Size(39, 17);
             this.UserLabel.TabIndex = 0;
             this.UserLabel.Text = "User";
             // 
@@ -76,21 +76,21 @@
             this.SettingsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SettingsButton.BackColor = System.Drawing.Color.Transparent;
             this.SettingsButton.Hover = global::ERP_SOLUTION.Properties.Resources.Settings_Hover;
-            this.SettingsButton.Location = new System.Drawing.Point(715, 4);
-            this.SettingsButton.Margin = new System.Windows.Forms.Padding(16);
+            this.SettingsButton.Location = new System.Drawing.Point(723, 4);
+            this.SettingsButton.Margin = new System.Windows.Forms.Padding(14, 16, 14, 16);
             this.SettingsButton.Name = "SettingsButton";
             this.SettingsButton.Press = global::ERP_SOLUTION.Properties.Resources.Settings_Press;
             this.SettingsButton.Regular = global::ERP_SOLUTION.Properties.Resources.Settings_Regular;
-            this.SettingsButton.Size = new System.Drawing.Size(24, 24);
+            this.SettingsButton.Size = new System.Drawing.Size(21, 24);
             this.SettingsButton.TabIndex = 11;
             // 
             // ModeLabel
             // 
             this.ModeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ModeLabel.AutoSize = true;
-            this.ModeLabel.Location = new System.Drawing.Point(673, 8);
+            this.ModeLabel.Location = new System.Drawing.Point(685, 8);
             this.ModeLabel.Name = "ModeLabel";
-            this.ModeLabel.Size = new System.Drawing.Size(44, 17);
+            this.ModeLabel.Size = new System.Drawing.Size(38, 17);
             this.ModeLabel.TabIndex = 10;
             this.ModeLabel.Text = "Prod";
             // 
@@ -99,12 +99,12 @@
             this.SavePresetButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.SavePresetButton.BackColor = System.Drawing.Color.Transparent;
             this.SavePresetButton.Hover = global::ERP_SOLUTION.Properties.Resources.Save_Hover;
-            this.SavePresetButton.Location = new System.Drawing.Point(311, 5);
-            this.SavePresetButton.Margin = new System.Windows.Forms.Padding(21);
+            this.SavePresetButton.Location = new System.Drawing.Point(320, 5);
+            this.SavePresetButton.Margin = new System.Windows.Forms.Padding(19, 21, 19, 21);
             this.SavePresetButton.Name = "SavePresetButton";
             this.SavePresetButton.Press = global::ERP_SOLUTION.Properties.Resources.Save_Press;
             this.SavePresetButton.Regular = global::ERP_SOLUTION.Properties.Resources.Save_Regular;
-            this.SavePresetButton.Size = new System.Drawing.Size(22, 22);
+            this.SavePresetButton.Size = new System.Drawing.Size(20, 22);
             this.SavePresetButton.TabIndex = 9;
             // 
             // LoadPresetButton
@@ -112,12 +112,12 @@
             this.LoadPresetButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.LoadPresetButton.BackColor = System.Drawing.Color.Transparent;
             this.LoadPresetButton.Hover = global::ERP_SOLUTION.Properties.Resources.Variant_Hover;
-            this.LoadPresetButton.Location = new System.Drawing.Point(276, 4);
-            this.LoadPresetButton.Margin = new System.Windows.Forms.Padding(16);
+            this.LoadPresetButton.Location = new System.Drawing.Point(289, 4);
+            this.LoadPresetButton.Margin = new System.Windows.Forms.Padding(14, 16, 14, 16);
             this.LoadPresetButton.Name = "LoadPresetButton";
             this.LoadPresetButton.Press = global::ERP_SOLUTION.Properties.Resources.Variant_Press;
             this.LoadPresetButton.Regular = global::ERP_SOLUTION.Properties.Resources.Variant_Regular;
-            this.LoadPresetButton.Size = new System.Drawing.Size(24, 24);
+            this.LoadPresetButton.Size = new System.Drawing.Size(21, 24);
             this.LoadPresetButton.TabIndex = 8;
             // 
             // SubmitButton
@@ -125,12 +125,12 @@
             this.SubmitButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.SubmitButton.BackColor = System.Drawing.Color.Transparent;
             this.SubmitButton.Hover = global::ERP_SOLUTION.Properties.Resources.Submit_Hover;
-            this.SubmitButton.Location = new System.Drawing.Point(536, 5);
-            this.SubmitButton.Margin = new System.Windows.Forms.Padding(12);
+            this.SubmitButton.Location = new System.Drawing.Point(520, 5);
+            this.SubmitButton.Margin = new System.Windows.Forms.Padding(11, 12, 11, 12);
             this.SubmitButton.Name = "SubmitButton";
             this.SubmitButton.Press = global::ERP_SOLUTION.Properties.Resources.Submit_Press;
             this.SubmitButton.Regular = global::ERP_SOLUTION.Properties.Resources.Submit_Regular;
-            this.SubmitButton.Size = new System.Drawing.Size(24, 24);
+            this.SubmitButton.Size = new System.Drawing.Size(21, 24);
             this.SubmitButton.TabIndex = 7;
             // 
             // HelpButton
@@ -138,12 +138,12 @@
             this.HelpButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.HelpButton.BackColor = System.Drawing.Color.Transparent;
             this.HelpButton.Hover = ((System.Drawing.Bitmap)(resources.GetObject("HelpButton.Hover")));
-            this.HelpButton.Location = new System.Drawing.Point(750, 4);
-            this.HelpButton.Margin = new System.Windows.Forms.Padding(16);
+            this.HelpButton.Location = new System.Drawing.Point(754, 4);
+            this.HelpButton.Margin = new System.Windows.Forms.Padding(14, 16, 14, 16);
             this.HelpButton.Name = "HelpButton";
             this.HelpButton.Press = ((System.Drawing.Bitmap)(resources.GetObject("HelpButton.Press")));
             this.HelpButton.Regular = ((System.Drawing.Bitmap)(resources.GetObject("HelpButton.Regular")));
-            this.HelpButton.Size = new System.Drawing.Size(24, 24);
+            this.HelpButton.Size = new System.Drawing.Size(21, 24);
             this.HelpButton.TabIndex = 6;
             // 
             // bottomPannel
@@ -162,9 +162,9 @@
             // 
             this.TransactionLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.TransactionLabel.AutoSize = true;
-            this.TransactionLabel.Location = new System.Drawing.Point(350, 8);
+            this.TransactionLabel.Location = new System.Drawing.Point(355, 8);
             this.TransactionLabel.Name = "TransactionLabel";
-            this.TransactionLabel.Size = new System.Drawing.Size(107, 17);
+            this.TransactionLabel.Size = new System.Drawing.Size(83, 17);
             this.TransactionLabel.TabIndex = 1;
             this.TransactionLabel.Text = "Transaction";
             // 
@@ -173,12 +173,12 @@
             this.EmailButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.EmailButton.BackColor = System.Drawing.Color.Transparent;
             this.EmailButton.Hover = global::ERP_SOLUTION.Properties.Resources.Mail_Hover;
-            this.EmailButton.Location = new System.Drawing.Point(241, 5);
-            this.EmailButton.Margin = new System.Windows.Forms.Padding(12);
+            this.EmailButton.Location = new System.Drawing.Point(258, 5);
+            this.EmailButton.Margin = new System.Windows.Forms.Padding(11, 12, 11, 12);
             this.EmailButton.Name = "EmailButton";
             this.EmailButton.Press = global::ERP_SOLUTION.Properties.Resources.Mail_Press;
             this.EmailButton.Regular = global::ERP_SOLUTION.Properties.Resources.Mail_Regular;
-            this.EmailButton.Size = new System.Drawing.Size(24, 22);
+            this.EmailButton.Size = new System.Drawing.Size(21, 22);
             this.EmailButton.TabIndex = 5;
             // 
             // ExecuteButton
@@ -186,12 +186,12 @@
             this.ExecuteButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ExecuteButton.BackColor = System.Drawing.Color.Transparent;
             this.ExecuteButton.Hover = global::ERP_SOLUTION.Properties.Resources.Execute_Hover;
-            this.ExecuteButton.Location = new System.Drawing.Point(206, 4);
-            this.ExecuteButton.Margin = new System.Windows.Forms.Padding(9);
+            this.ExecuteButton.Location = new System.Drawing.Point(227, 4);
+            this.ExecuteButton.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
             this.ExecuteButton.Name = "ExecuteButton";
             this.ExecuteButton.Press = global::ERP_SOLUTION.Properties.Resources.Execute_Press;
             this.ExecuteButton.Regular = global::ERP_SOLUTION.Properties.Resources.Execute_Regular;
-            this.ExecuteButton.Size = new System.Drawing.Size(24, 24);
+            this.ExecuteButton.Size = new System.Drawing.Size(21, 24);
             this.ExecuteButton.TabIndex = 3;
             // 
             // ScreenshotButton
@@ -199,24 +199,24 @@
             this.ScreenshotButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ScreenshotButton.BackColor = System.Drawing.Color.Transparent;
             this.ScreenshotButton.Hover = global::ERP_SOLUTION.Properties.Resources.ScreenShot_Hover1;
-            this.ScreenshotButton.Location = new System.Drawing.Point(171, 4);
-            this.ScreenshotButton.Margin = new System.Windows.Forms.Padding(7);
+            this.ScreenshotButton.Location = new System.Drawing.Point(196, 4);
+            this.ScreenshotButton.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.ScreenshotButton.Name = "ScreenshotButton";
             this.ScreenshotButton.Press = global::ERP_SOLUTION.Properties.Resources.ScreenShot_Press1;
             this.ScreenshotButton.Regular = global::ERP_SOLUTION.Properties.Resources.ScreenShot_Regular1;
-            this.ScreenshotButton.Size = new System.Drawing.Size(24, 24);
+            this.ScreenshotButton.Size = new System.Drawing.Size(21, 24);
             this.ScreenshotButton.TabIndex = 2;
             // 
             // RedoButton
             // 
             this.RedoButton.BackColor = System.Drawing.Color.Transparent;
             this.RedoButton.Hover = global::ERP_SOLUTION.Properties.Resources.Redo_Hover1;
-            this.RedoButton.Location = new System.Drawing.Point(34, 4);
-            this.RedoButton.Margin = new System.Windows.Forms.Padding(5);
+            this.RedoButton.Location = new System.Drawing.Point(30, 4);
+            this.RedoButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.RedoButton.Name = "RedoButton";
             this.RedoButton.Press = global::ERP_SOLUTION.Properties.Resources.Redo_Press1;
             this.RedoButton.Regular = global::ERP_SOLUTION.Properties.Resources.Redo_Regular1;
-            this.RedoButton.Size = new System.Drawing.Size(24, 24);
+            this.RedoButton.Size = new System.Drawing.Size(21, 24);
             this.RedoButton.TabIndex = 1;
             // 
             // UndoButton
@@ -228,7 +228,7 @@
             this.UndoButton.Name = "UndoButton";
             this.UndoButton.Press = global::ERP_SOLUTION.Properties.Resources.Undo_Regular1;
             this.UndoButton.Regular = global::ERP_SOLUTION.Properties.Resources.Undo_Regular1;
-            this.UndoButton.Size = new System.Drawing.Size(24, 24);
+            this.UndoButton.Size = new System.Drawing.Size(21, 24);
             this.UndoButton.TabIndex = 0;
             // 
             // topPannel
@@ -255,9 +255,9 @@
             // TransactionInput
             // 
             this.TransactionInput.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.TransactionInput.Location = new System.Drawing.Point(346, 4);
+            this.TransactionInput.Location = new System.Drawing.Point(352, 4);
             this.TransactionInput.Name = "TransactionInput";
-            this.TransactionInput.Size = new System.Drawing.Size(187, 25);
+            this.TransactionInput.Size = new System.Drawing.Size(167, 25);
             this.TransactionInput.TabIndex = 4;
             // 
             // bodyPannel
@@ -272,14 +272,15 @@
             // 
             // MainScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.bottomPannel);
             this.Controls.Add(this.topPannel);
             this.Controls.Add(this.bodyPannel);
-            this.Font = new System.Drawing.Font("72 Monospace", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Font = new System.Drawing.Font("72 Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MinimumSize = new System.Drawing.Size(680, 420);
             this.Name = "MainScreen";
             this.Text = "MainScreen";
             this.bottomPannel.ResumeLayout(false);

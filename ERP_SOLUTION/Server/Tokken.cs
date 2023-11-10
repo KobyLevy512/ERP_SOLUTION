@@ -36,6 +36,7 @@ namespace ERP_SOLUTION.Server
         /// Production / Test / Development.
         /// </summary>
         public byte Mode = 255;
+        public string Ip = "";
         public Tokken(byte[] data)
         {
             this.data = data;
