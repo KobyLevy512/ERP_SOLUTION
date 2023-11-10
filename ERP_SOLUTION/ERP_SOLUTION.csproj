@@ -82,6 +82,12 @@
     <Compile Include="Transactions\Client\MainScreen.Designer.cs">
       <DependentUpon>MainScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Transactions\Server\MainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\Server\MainScreen.Designer.cs">
+      <DependentUpon>MainScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Transactions\Server\ServerConsole.cs" />
     <EmbeddedResource Include="Controlls\Image Button.resx">
       <DependentUpon>Image Button.cs</DependentUpon>
@@ -100,6 +106,9 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Transactions\Client\MainScreen.resx">
+      <DependentUpon>MainScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\Server\MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

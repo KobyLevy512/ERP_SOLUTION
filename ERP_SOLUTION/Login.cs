@@ -101,10 +101,12 @@ namespace ERP_SOLUTION
             if (MessageBox.Show("Create new server are you sure ?", "New Server", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 if(folderBrowserDialog1.ShowDialog() == DialogResult.OK)
-                {
+                {   
+                    //Open in server mode
                     ServerPath = folderBrowserDialog1.SelectedPath;
                     CreateNewServerFiles();
-                    //Open in server mode
+                    Transactions.Server.MainScreen screen = new Transactions.Server.MainScreen(IpInput.Text, int.Parse(PortInput.Text));
+                    screen.ShowDialog();
                 }
             }
             else if(MessageBox.Show("Do you want to re-run an existing server", "Existing Server", MessageBoxButtons.YesNo) == DialogResult.Yes)
@@ -123,6 +125,8 @@ namespace ERP_SOLUTION
                         MessageBox.Show(ex.Message + "\nPath:" + ex.Source);
                     }
                     //Open in server mode
+                    Transactions.Server.MainScreen screen = new Transactions.Server.MainScreen(IpInput.Text, int.Parse(PortInput.Text));
+                    screen.ShowDialog();
                 }
             }
         }
