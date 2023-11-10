@@ -6,7 +6,7 @@ namespace ERP_SOLUTION.Controlls
 {
     public partial class IconButton : UserControl
     {
-        static SolidBrush brush = new SolidBrush(Color.FromArgb(61, 85, 140));
+        public static SolidBrush brush = new SolidBrush(Color.FromArgb(61, 85, 140));
         Bitmap icon = new Bitmap(1,1);
         string txt = "";
 

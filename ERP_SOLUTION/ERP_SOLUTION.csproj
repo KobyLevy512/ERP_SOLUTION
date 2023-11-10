@@ -65,6 +65,12 @@
     <Compile Include="Controlls\Image Button.Designer.cs">
       <DependentUpon>Image Button.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controlls\TreeButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controlls\TreeButton.Designer.cs">
+      <DependentUpon>TreeButton.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exceptions\IpException.cs" />
     <Compile Include="Exceptions\LoadServerException.cs" />
     <Compile Include="Exceptions\OpException.cs" />
@@ -109,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controlls\Image Button.resx">
       <DependentUpon>Image Button.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controlls\TreeButton.resx">
+      <DependentUpon>TreeButton.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -270,6 +279,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\ArrowDown.png" />
+    <None Include="Resources\ArrowUp.png" />
+    <None Include="Resources\Transport%281%29.png" />
+    <None Include="Resources\Transport.png" />
+    <None Include="Resources\Task.png" />
+    <None Include="Resources\Table.png" />
+    <None Include="Resources\Report.png" />
+    <None Include="Resources\Ide Regular.png" />
     <None Include="Resources\Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
