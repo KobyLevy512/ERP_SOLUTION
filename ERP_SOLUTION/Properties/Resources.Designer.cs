@@ -112,7 +112,34 @@ namespace ERP_SOLUTION.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to using System;
+        ///using ERP;
+        ///
+        ///namespace MyTransaction
+        ///{
+        ///	public class Program : Transaction
+        ///	{
+        ///		//Constructor for your program
+        ///		//Init your program here.
+        ///		public Program()
+        ///		{
+        ///			
+        ///		}
+        ///
+        ///		//This function invoke when other app request to run the program.
+        ///		public static object[] Run(params object[] parameters)
+        ///		{
+        ///			return new object[0];
+        ///		}
+        ///
+        ///		//This function invoke
+        ///		//when the user hit the execute button.
+        ///		public override void Execute()
+        ///		{
+        ///
+        ///		}
+        ///
+        ///		//This function invoke when th [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string EmptyTransaction {
             get {
@@ -176,6 +203,36 @@ namespace ERP_SOLUTION.Properties {
         internal static System.Drawing.Bitmap Help_Regular {
             get {
                 object obj = ResourceManager.GetObject("Help Regular", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon_Button_Hover {
+            get {
+                object obj = ResourceManager.GetObject("Icon Button Hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon_Button_Press {
+            get {
+                object obj = ResourceManager.GetObject("Icon Button Press", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon_Button_Regular {
+            get {
+                object obj = ResourceManager.GetObject("Icon Button Regular", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

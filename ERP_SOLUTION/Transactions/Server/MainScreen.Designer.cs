@@ -88,11 +88,11 @@
             // 
             this.ModeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ModeLabel.AutoSize = true;
-            this.ModeLabel.Location = new System.Drawing.Point(685, 8);
+            this.ModeLabel.Location = new System.Drawing.Point(669, 8);
             this.ModeLabel.Name = "ModeLabel";
-            this.ModeLabel.Size = new System.Drawing.Size(38, 17);
+            this.ModeLabel.Size = new System.Drawing.Size(50, 17);
             this.ModeLabel.TabIndex = 10;
-            this.ModeLabel.Text = "Prod";
+            this.ModeLabel.Text = "Server";
             // 
             // SavePresetButton
             // 

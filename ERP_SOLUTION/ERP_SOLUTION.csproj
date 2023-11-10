@@ -50,6 +50,12 @@
     <Compile Include="Client\Preset.cs" />
     <Compile Include="Client\UserInfo.cs" />
     <Compile Include="Compiler.cs" />
+    <Compile Include="Controlls\IconButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controlls\IconButton.Designer.cs">
+      <DependentUpon>IconButton.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controlls\Image Button.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -76,6 +82,12 @@
     <Compile Include="Server\Operations\Op.cs" />
     <Compile Include="Server\ServerListener.cs" />
     <Compile Include="Server\Tokken.cs" />
+    <Compile Include="Transactions\Client\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\Client\MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Transactions\Client\MainScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +101,9 @@
       <DependentUpon>MainScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Transactions\Server\ServerConsole.cs" />
+    <EmbeddedResource Include="Controlls\IconButton.resx">
+      <DependentUpon>IconButton.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controlls\Image Button.resx">
       <DependentUpon>Image Button.cs</DependentUpon>
     </EmbeddedResource>
@@ -105,6 +120,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Transactions\Client\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Transactions\Client\MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -228,6 +246,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\EmptyTransaction.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Button Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Button Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Button Regular.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
