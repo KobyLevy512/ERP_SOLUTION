@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+﻿using ERP_SOLUTION.Server;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -12,9 +6,14 @@ namespace ERP_SOLUTION.Transactions.Server
 {
     public partial class MainMenu : Form
     {
-        public MainMenu()
+        public MainMenu(string ip, int port)
         {
             InitializeComponent();
+            Task.Run(() =>
+            {
+                ServerListener listener = new ServerListener(ip, port);
+                listener.Start();
+            });
         }
     }
 }

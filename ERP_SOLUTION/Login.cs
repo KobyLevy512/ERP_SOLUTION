@@ -107,7 +107,7 @@ namespace ERP_SOLUTION
                     //Open in server mode
                     ServerPath = folderBrowserDialog1.SelectedPath;
                     CreateNewServerFiles();
-                    Transactions.Server.MainScreen screen = new Transactions.Server.MainScreen(UserInfo.Ip, int.Parse(PortInput.Text));
+                    Transactions.Server.MainMenu screen = new Transactions.Server.MainMenu(UserInfo.Ip, int.Parse(PortInput.Text));
                     screen.ShowDialog();
                 }
             }
@@ -127,7 +127,7 @@ namespace ERP_SOLUTION
                         MessageBox.Show(ex.Message + "\nPath:" + ex.Source);
                     }
                     //Open in server mode
-                    Transactions.Server.MainScreen screen = new Transactions.Server.MainScreen(UserInfo.Ip, int.Parse(PortInput.Text));
+                    Transactions.Server.MainMenu screen = new Transactions.Server.MainMenu(UserInfo.Ip, int.Parse(PortInput.Text));
                     screen.ShowDialog();
                 }
             }
