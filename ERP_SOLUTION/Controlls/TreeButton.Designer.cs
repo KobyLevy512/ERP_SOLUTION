@@ -34,7 +34,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.Transparent;
             this.BackgroundImage = global::ERP_SOLUTION.Properties.Resources.Icon_Button_Regular;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;

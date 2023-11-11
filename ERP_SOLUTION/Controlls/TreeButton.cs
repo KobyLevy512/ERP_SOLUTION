@@ -7,12 +7,15 @@ namespace ERP_SOLUTION.Controlls
 {
     public partial class TreeButton : UserControl
     {
+        public delegate void ChildClick(string child);
+
         Bitmap arrow = Properties.Resources.ArrowDown;
         string txt = "";
 
         bool isOpen = false;
 
-        public List<IconButton> Childs = new List<IconButton>();
+        public List<string> Childs = new List<string>();
+        public event ChildClick OnChildClick;
         public string Txt
         {
             get => txt;
@@ -53,6 +56,8 @@ namespace ERP_SOLUTION.Controlls
             {
                 arrow = Properties.Resources.ArrowDown;
                 Controls.Clear();
+                AutoSize = false;
+                Size = new Size(137, 31);
             }
         }
 
@@ -64,20 +69,31 @@ namespace ERP_SOLUTION.Controlls
 
         private void TreeButton_Paint(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawString(txt, Font, IconButton.brush, 5, 3);
-            e.Graphics.DrawImage(arrow, 70, 2, 32, 32);
+            e.Graphics.DrawString(txt, Font, IconButton.brush, 5, 6);
+            e.Graphics.DrawImage(arrow, 115, 10, 20, 10);
         }
 
         private void OpenChilds()
         {
             Controls.Clear();
-            int dy = 31;
-            foreach(IconButton i in Childs)
+            int dy = 26;
+            foreach(string str in Childs)
             {
+                IconButton i = new IconButton();
+                i.Size = new Size(153, 26);
                 i.Location = new Point(0, dy);
+                i.Txt = str;
+                i.Click += OnChildClickFunc;
                 Controls.Add(i);
-                dy += 31;
+                dy += 26;
             }
+            AutoSize = true;
+            Invalidate();
+        }
+        private void OnChildClickFunc(object child, EventArgs e)
+        {
+            IconButton c = (IconButton) child;
+            OnChildClick?.Invoke(c.Txt);
         }
     }
 }
