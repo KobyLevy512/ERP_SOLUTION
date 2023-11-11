@@ -130,14 +130,14 @@
   <data name="BG2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BG2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mail Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mail Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Button Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon Button Regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ArrowDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArrowDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Variant Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Variant Regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Customer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Customer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Help Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Help Regular1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -156,6 +156,12 @@
   </data>
   <data name="Variant Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Variant Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmptyTransaction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EmptyTransaction.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Submit Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Submit Regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,6 +187,9 @@
   <data name="Settings Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Settings Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ScreenShot Regular1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScreenShot Regular1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Frame 3(2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Frame 3(2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -199,11 +208,11 @@
   <data name="Report" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Icon Button Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon Button Regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Execute Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Execute Regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Transport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Transport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Settings Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Settings Regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,14 +223,14 @@
   <data name="Save Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Save Regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Mail Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mail Regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BG11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BG11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Mail Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mail Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Help Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Help Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ScreenShot Press1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ScreenShot Press1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,8 +238,11 @@
   <data name="Variant Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Variant Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mail Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mail Regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ArrowUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArrowUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mail Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mail Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Frame 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Frame 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,11 +250,11 @@
   <data name="Icon Button Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon Button Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Frame 3(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Frame 3(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Transport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EmptyTransaction" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EmptyTransaction.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  <data name="Transport(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transport(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Save Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Save Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,19 +262,16 @@
   <data name="Submit Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Submit Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ScreenShot Regular1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ScreenShot Regular1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Frame 3(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frame 3(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Undo Press1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Undo Press1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Transport(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Transport(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ArrowDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ArrowDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ArrowUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ArrowUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

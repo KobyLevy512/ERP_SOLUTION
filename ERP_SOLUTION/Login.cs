@@ -84,7 +84,7 @@ namespace ERP_SOLUTION
             if(listener.Login((byte)ModeComboBox.SelectedIndex, UserInput.Text, PasswordInput.Text))
             {
                 //Open client
-                Transactions.Client.MainScreen screen = new Transactions.Client.MainScreen();
+                Transactions.Client.MainMenu screen = new Transactions.Client.MainMenu();
                 screen.ShowDialog();
             }
         }

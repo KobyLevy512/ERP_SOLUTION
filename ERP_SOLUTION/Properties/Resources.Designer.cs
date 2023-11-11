@@ -132,6 +132,16 @@ namespace ERP_SOLUTION.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Customer {
+            get {
+                object obj = ResourceManager.GetObject("Customer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to using System;
         ///using ERP;
         ///
@@ -164,6 +174,16 @@ namespace ERP_SOLUTION.Properties {
         internal static string EmptyTransaction {
             get {
                 return ResourceManager.GetString("EmptyTransaction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Error {
+            get {
+                object obj = ResourceManager.GetObject("Error", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -303,6 +323,16 @@ namespace ERP_SOLUTION.Properties {
         internal static System.Drawing.Bitmap Ide_Regular {
             get {
                 object obj = ResourceManager.GetObject("Ide Regular", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Info {
+            get {
+                object obj = ResourceManager.GetObject("Info", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

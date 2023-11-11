@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ERP_SOLUTION.Transactions.Client
+namespace ERP_SOLUTION.Transactions.Server
 {
-    public partial class MainScreen : Form
+    public partial class MainMenu : Form
     {
-        public MainScreen()
+        public MainMenu()
         {
             InitializeComponent();
         }

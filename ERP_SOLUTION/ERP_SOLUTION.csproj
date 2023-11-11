@@ -97,11 +97,11 @@
     <Compile Include="Transactions\Client\MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Transactions\Client\MainScreen.cs">
+    <Compile Include="Transactions\Server\MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Transactions\Client\MainScreen.Designer.cs">
-      <DependentUpon>MainScreen.cs</DependentUpon>
+    <Compile Include="Transactions\Server\MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Transactions\Server\MainScreen.cs">
       <SubType>Form</SubType>
@@ -135,8 +135,8 @@
     <EmbeddedResource Include="Transactions\Client\MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\Client\MainScreen.resx">
-      <DependentUpon>MainScreen.cs</DependentUpon>
+    <EmbeddedResource Include="Transactions\Server\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\Server\MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
@@ -279,6 +279,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\Info.png" />
+    <None Include="Resources\Customer.png" />
+    <None Include="Resources\Error.png" />
     <None Include="Resources\ArrowDown.png" />
     <None Include="Resources\ArrowUp.png" />
     <None Include="Resources\Transport%281%29.png" />
