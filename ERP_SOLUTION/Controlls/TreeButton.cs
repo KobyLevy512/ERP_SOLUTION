@@ -11,10 +11,9 @@ namespace ERP_SOLUTION.Controlls
 
         Bitmap arrow = Properties.Resources.ArrowDown;
         string txt = "";
-
+        string[] childs = new string[0];
         bool isOpen = false;
 
-        public List<string> Childs = new List<string>();
         public event ChildClick OnChildClick;
         public string Txt
         {
@@ -24,6 +23,12 @@ namespace ERP_SOLUTION.Controlls
                 txt = value;
                 Invalidate();
             }
+        }
+
+        public string[] Childs
+        {
+            get=>childs;
+            set => childs = value;
         }
         public TreeButton()
         {

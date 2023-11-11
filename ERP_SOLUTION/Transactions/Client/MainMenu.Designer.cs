@@ -55,12 +55,12 @@
             this.iconButton5 = new ERP_SOLUTION.Controlls.IconButton();
             this.iconButton3 = new ERP_SOLUTION.Controlls.IconButton();
             this.treeButton1 = new ERP_SOLUTION.Controlls.TreeButton();
-            this.treeButton2 = new ERP_SOLUTION.Controlls.TreeButton();
-            this.treeButton3 = new ERP_SOLUTION.Controlls.TreeButton();
-            this.treeButton4 = new ERP_SOLUTION.Controlls.TreeButton();
-            this.treeButton5 = new ERP_SOLUTION.Controlls.TreeButton();
             this.treeButton6 = new ERP_SOLUTION.Controlls.TreeButton();
+            this.treeButton2 = new ERP_SOLUTION.Controlls.TreeButton();
             this.treeButton7 = new ERP_SOLUTION.Controlls.TreeButton();
+            this.treeButton4 = new ERP_SOLUTION.Controlls.TreeButton();
+            this.treeButton3 = new ERP_SOLUTION.Controlls.TreeButton();
+            this.treeButton5 = new ERP_SOLUTION.Controlls.TreeButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -143,9 +143,9 @@
             this.label3.Margin = new System.Windows.Forms.Padding(3, 12, 3, 0);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(3, 5, 50, 3);
-            this.label3.Size = new System.Drawing.Size(146, 25);
+            this.label3.Size = new System.Drawing.Size(120, 25);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Transactions:";
+            this.label3.Text = "Activities:";
             // 
             // label1
             // 
@@ -400,6 +400,9 @@
             this.treeButton1.BackColor = System.Drawing.Color.Transparent;
             this.treeButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("treeButton1.BackgroundImage")));
             this.treeButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.treeButton1.Childs = new string[] {
+        "Customers",
+        "Contacts"};
             this.treeButton1.Font = new System.Drawing.Font("72 Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.treeButton1.Location = new System.Drawing.Point(5, 239);
             this.treeButton1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
@@ -408,63 +411,15 @@
             this.treeButton1.TabIndex = 8;
             this.treeButton1.Txt = "CRM";
             // 
-            // treeButton2
-            // 
-            this.treeButton2.BackColor = System.Drawing.Color.Transparent;
-            this.treeButton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("treeButton2.BackgroundImage")));
-            this.treeButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.treeButton2.Font = new System.Drawing.Font("72 Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.treeButton2.Location = new System.Drawing.Point(5, 317);
-            this.treeButton2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.treeButton2.Name = "treeButton2";
-            this.treeButton2.Size = new System.Drawing.Size(150, 31);
-            this.treeButton2.TabIndex = 9;
-            this.treeButton2.Txt = "HR";
-            // 
-            // treeButton3
-            // 
-            this.treeButton3.BackColor = System.Drawing.Color.Transparent;
-            this.treeButton3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("treeButton3.BackgroundImage")));
-            this.treeButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.treeButton3.Font = new System.Drawing.Font("72 Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.treeButton3.Location = new System.Drawing.Point(5, 434);
-            this.treeButton3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.treeButton3.Name = "treeButton3";
-            this.treeButton3.Size = new System.Drawing.Size(150, 31);
-            this.treeButton3.TabIndex = 10;
-            this.treeButton3.Txt = "Sales";
-            // 
-            // treeButton4
-            // 
-            this.treeButton4.BackColor = System.Drawing.Color.Transparent;
-            this.treeButton4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("treeButton4.BackgroundImage")));
-            this.treeButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.treeButton4.Font = new System.Drawing.Font("72 Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.treeButton4.Location = new System.Drawing.Point(5, 395);
-            this.treeButton4.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.treeButton4.Name = "treeButton4";
-            this.treeButton4.Size = new System.Drawing.Size(150, 31);
-            this.treeButton4.TabIndex = 11;
-            this.treeButton4.Txt = "Purchasing";
-            // 
-            // treeButton5
-            // 
-            this.treeButton5.BackColor = System.Drawing.Color.Transparent;
-            this.treeButton5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("treeButton5.BackgroundImage")));
-            this.treeButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.treeButton5.Font = new System.Drawing.Font("72 Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.treeButton5.Location = new System.Drawing.Point(5, 473);
-            this.treeButton5.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.treeButton5.Name = "treeButton5";
-            this.treeButton5.Size = new System.Drawing.Size(150, 31);
-            this.treeButton5.TabIndex = 12;
-            this.treeButton5.Txt = "Supply Chain";
-            // 
             // treeButton6
             // 
             this.treeButton6.BackColor = System.Drawing.Color.Transparent;
             this.treeButton6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("treeButton6.BackgroundImage")));
             this.treeButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.treeButton6.Childs = new string[] {
+        "Incomes",
+        "Outcomes",
+        "Revenue"};
             this.treeButton6.Font = new System.Drawing.Font("72 Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.treeButton6.Location = new System.Drawing.Point(5, 278);
             this.treeButton6.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
@@ -473,11 +428,29 @@
             this.treeButton6.TabIndex = 13;
             this.treeButton6.Txt = "Finance";
             // 
+            // treeButton2
+            // 
+            this.treeButton2.BackColor = System.Drawing.Color.Transparent;
+            this.treeButton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("treeButton2.BackgroundImage")));
+            this.treeButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.treeButton2.Childs = new string[0];
+            this.treeButton2.Font = new System.Drawing.Font("72 Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.treeButton2.Location = new System.Drawing.Point(5, 317);
+            this.treeButton2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.treeButton2.Name = "treeButton2";
+            this.treeButton2.Size = new System.Drawing.Size(150, 31);
+            this.treeButton2.TabIndex = 9;
+            this.treeButton2.Txt = "HR";
+            // 
             // treeButton7
             // 
             this.treeButton7.BackColor = System.Drawing.Color.Transparent;
             this.treeButton7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("treeButton7.BackgroundImage")));
             this.treeButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.treeButton7.Childs = new string[] {
+        "Materials",
+        "Reservations",
+        "Requirments"};
             this.treeButton7.Font = new System.Drawing.Font("72 Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.treeButton7.Location = new System.Drawing.Point(5, 356);
             this.treeButton7.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
@@ -485,6 +458,53 @@
             this.treeButton7.Size = new System.Drawing.Size(150, 31);
             this.treeButton7.TabIndex = 14;
             this.treeButton7.Txt = "Manufacture";
+            // 
+            // treeButton4
+            // 
+            this.treeButton4.BackColor = System.Drawing.Color.Transparent;
+            this.treeButton4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("treeButton4.BackgroundImage")));
+            this.treeButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.treeButton4.Childs = new string[] {
+        "Purchases",
+        "Reservations"};
+            this.treeButton4.Font = new System.Drawing.Font("72 Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.treeButton4.Location = new System.Drawing.Point(5, 395);
+            this.treeButton4.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.treeButton4.Name = "treeButton4";
+            this.treeButton4.Size = new System.Drawing.Size(150, 31);
+            this.treeButton4.TabIndex = 11;
+            this.treeButton4.Txt = "Purchasing";
+            // 
+            // treeButton3
+            // 
+            this.treeButton3.BackColor = System.Drawing.Color.Transparent;
+            this.treeButton3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("treeButton3.BackgroundImage")));
+            this.treeButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.treeButton3.Childs = new string[] {
+        "Sales",
+        "Reservations"};
+            this.treeButton3.Font = new System.Drawing.Font("72 Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.treeButton3.Location = new System.Drawing.Point(5, 434);
+            this.treeButton3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.treeButton3.Name = "treeButton3";
+            this.treeButton3.Size = new System.Drawing.Size(150, 31);
+            this.treeButton3.TabIndex = 10;
+            this.treeButton3.Txt = "Sales";
+            // 
+            // treeButton5
+            // 
+            this.treeButton5.BackColor = System.Drawing.Color.Transparent;
+            this.treeButton5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("treeButton5.BackgroundImage")));
+            this.treeButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.treeButton5.Childs = new string[] {
+        "Supplier"};
+            this.treeButton5.Font = new System.Drawing.Font("72 Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.treeButton5.Location = new System.Drawing.Point(5, 473);
+            this.treeButton5.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.treeButton5.Name = "treeButton5";
+            this.treeButton5.Size = new System.Drawing.Size(150, 31);
+            this.treeButton5.TabIndex = 12;
+            this.treeButton5.Txt = "Supply Chain";
             // 
             // MainMenu
             // 
